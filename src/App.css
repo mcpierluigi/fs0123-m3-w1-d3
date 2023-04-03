@@ -3,8 +3,8 @@
 }
 
 .CardBook {
-  height: 90%;
-  box-shadow: 5px 5px 20px 0px skyblue;
+  height: 98%;
+  box-shadow: 5px 5px 20px 0px pink;
   background-color: snow;
 }
 
@@ -17,4 +17,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.Footer {
+  background-color: brown;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }

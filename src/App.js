@@ -1,13 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import TopBar from "./components/TopBar";
-import AllTheBooks from "./components/AllTheBooks";
+import BookList from "./components/BookList";
+import books from "./data/horror.json";
+import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
     <div className="App">
       <TopBar />
-      <AllTheBooks />
+      <BookList books={books} />
+      <MyFooter />
     </div>
   );
 }
