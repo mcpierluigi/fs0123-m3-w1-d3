@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.Welcome {
+  background-color: brown;
+  padding-block: 30px;
+}
+
 .CardBook {
   height: 98%;
   box-shadow: 5px 5px 20px 0px pink;
